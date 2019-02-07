@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Carrousel from './Carrousel';
+import Countdown from './Countdown';
 
 class Featured extends Component {
     render() {
@@ -13,6 +14,9 @@ class Featured extends Component {
                         Ariana Grande
                     </div>
                 </div>
+
+                <Countdown/>
+                
             </div>
         );
     }
